@@ -1,0 +1,89 @@
+Introduction to Aspect Oriented Programming, Configuring AOP in 
+Spring Boot, Implementing AOP advices.
+
+* We have same action or tasks in multiple layers,
+which we want to bring to a single place.
+
+* We dont want to keep the bussiness and the logger requirement
+in the same place.
+
+@Component
+@Aspect
+public class LoggerAspect {
+
+JoinPoint is the specific point for example method which when executed 
+should be intercepted by the advice method in the LoggerAspect.
+
+Pointcut is the expression with which we decide which JoinPoint
+to be intercepted
+
+public void beforeTheMethodIsCalled(){
+  // tasks as a part of the aspect
+  // for us the aspect or concern is for
+  // logging
+}
+
+public void afterTheMethodIsCalled(){
+
+}
+
+public void afterTheMethodReturnsAVAlue(){
+
+}
+
+public void afterTheMethodThrowsAnException(){
+
+}
+
+public void aroundTheMethod(){
+
+}
+
+}
+
+public class TraineeServiceImpl implements ...
+{
+
+ public int addTrainees(TraineeDTO traineeDTO){
+ 
+ }
+ 
+  public void deleteTrainee(int id){
+ 
+ }
+ 
+ protected void method1(){
+ 
+ }
+
+}
+
+public class TraineeRepositoryImpl implements ...
+{
+
+ public int addTrainees(TraineeDTO traineeDTO){
+ 
+ }
+ 
+  public void deleteTrainee(int id){
+ 
+ }
+
+}
+---------------------------------------------------------------------------------------
+https://mvnrepository.com/
+
+search for log4j2 starter project.
+search for aop starter project.
+
+Update pom.xml for the above dependencies and exclude the default Logger of spring.
+  
+
+
+
+
+Best Practices in Spring Boot. 
+
+Writing test cases using JUnit, Writing test cases using Mockito and 
+JUnit.
+

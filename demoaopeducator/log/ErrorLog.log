@@ -1,0 +1,53 @@
+01-Aug-2022 12:29:26 INFO - Before the method in controller is called
+01-Aug-2022 12:29:27 INFO - After the method in controller is called
+01-Aug-2022 12:29:27 INFO - 1
+01-Aug-2022 12:29:56 INFO - Before the method in controller is called
+01-Aug-2022 12:29:56 INFO - After the method in controller is called
+01-Aug-2022 12:29:56 INFO - 1
+01-Aug-2022 12:31:44 INFO - Before the method in controller is called
+01-Aug-2022 12:31:44 INFO - After the method in controller is called
+01-Aug-2022 12:31:44 INFO - 1
+01-Aug-2022 12:31:44 INFO - Before the method in controller is called
+01-Aug-2022 12:31:44 INFO - After the method in controller is called
+01-Aug-2022 12:33:44 INFO - Before the method in controller is called
+01-Aug-2022 12:33:44 INFO - After the method in controller is called
+01-Aug-2022 12:33:44 INFO - 1
+01-Aug-2022 12:33:44 INFO - Before the method in controller is called
+01-Aug-2022 12:33:44 INFO - Before the method in controller is called
+01-Aug-2022 12:33:44 INFO - After the method in controller is called
+01-Aug-2022 12:33:44 INFO - After the method in controller is called
+01-Aug-2022 12:36:35 INFO - Before the method in controller is called
+01-Aug-2022 12:36:35 INFO - After the method in controller is called
+01-Aug-2022 12:36:35 INFO - 1
+01-Aug-2022 12:36:35 INFO - Before the method in controller is called
+01-Aug-2022 12:36:35 INFO - After the method in controller is called
+01-Aug-2022 12:50:02 INFO - Before the method in controller/service is called
+01-Aug-2022 12:50:02 INFO - After returning advice called.1
+01-Aug-2022 12:50:02 INFO - After the method in controller/service is called
+01-Aug-2022 12:50:02 INFO - 1
+01-Aug-2022 12:50:02 INFO - Before the method in controller/service is called
+01-Aug-2022 12:50:02 INFO - After returning advice called.1
+01-Aug-2022 12:50:02 INFO - After the method in controller/service is called
+01-Aug-2022 12:51:14 ERROR - Exception thrown
+java.lang.Exception: Exception thrown
+	at com.demo.controller.DemoController.method(DemoController.java:23) ~[classes/:?]
+	at com.demo.controller.DemoController$$FastClassBySpringCGLIB$$26f5e453.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.22.jar:5.3.22]
+	at com.demo.controller.DemoController$$EnhancerBySpringCGLIB$$803e4855.method(<generated>) ~[classes/:?]
+	at com.demo.DemoaopeducatorApplication.run(DemoaopeducatorApplication.java:28) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.demo.DemoaopeducatorApplication.main(DemoaopeducatorApplication.java:21) ~[classes/:?]
