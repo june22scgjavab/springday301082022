@@ -68,3 +68,7 @@ com.library.exception.BookException: SERVICE.INVALID_BOOK_NAME
 	at com.library.Springaopdemo2Application.main(Springaopdemo2Application.java:22) ~[classes/:?]
 01-Aug-2022 15:06:41 INFO - Method got called    int com.library.service.BookService.addBooks(BookDTO)
 01-Aug-2022 15:06:41 ERROR - SERVICE.INVALID_BOOK_NAME
+01-Aug-2022 15:19:06 INFO - Going to call the add method   int com.library.service.BookService.addBooks(BookDTO)
+01-Aug-2022 15:19:06 INFO - After returning The value is .    1
+01-Aug-2022 15:19:06 INFO - Method got called    int com.library.service.BookService.addBooks(BookDTO)
+01-Aug-2022 15:19:06 INFO - SUCCESS

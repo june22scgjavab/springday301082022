@@ -22,7 +22,7 @@ public class Validator {
 
 	private static boolean validateName(String name) {
 		boolean isValidName=true;
-		String regex="^([A-Z][a-z]+)(\\s[A-Z][a-z]+)$";
+		String regex="^([A-Z][a-z]+)(\\s[A-Z][a-z]+)*$";
 		if(!name.matches(regex)) {
 			isValidName=false;
 		}

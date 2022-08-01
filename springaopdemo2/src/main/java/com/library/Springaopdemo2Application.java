@@ -31,7 +31,7 @@ public class Springaopdemo2Application implements CommandLineRunner {
 	private void addBooks() {
 		
 		BookDTO book=new BookDTO();
-		book.setId(-1);
+		book.setId(1);
 		book.setName("Spring");
 		
 		try {
